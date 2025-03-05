@@ -201,3 +201,12 @@ list-style: none;
 list-style-type: none;
 
 }
+
+.insta-icon{
+    width: 30px;
+    height: auto;
+}
+.fb-icon{
+    width: 30px;
+    height: auto;
+}
