@@ -1,0 +1,143 @@
+/* header */
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: center;
+  margin-top: auto;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 10;
+  max-width: 100vw; /* Garante que o menu não ultrapasse a largura da tela */
+  overflow: hidden;
+  top: 0%;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-grow: 1; /* Faz os links ocuparem o espaço disponível */
+  gap: 20px;
+  padding-right: 20px;
+}
+
+.header-menu ul li {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  list-style: none;
+  font-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.logo {
+  padding: 0%;
+  margin: 0%;
+  height: 100px;
+  margin-right: 300px;
+}
+
+.menu-logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  padding: 0%;
+  margin: 0%;
+  justify-content: flex-start;
+}
+
+.menu-link a {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  font-size: small;
+  text-transform: uppercase;
+  /* background-color: grey; */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu-link a:hover {
+  color: #ffc703;
+}
+
+/* FOOTER */
+
+.footer {
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    align-content: flex-end;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.993);
+  }
+  
+  
+  .social-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      align-items: center;
+      align-content: center;
+    gap: 5px;
+    list-style: none;
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .insta-icon {
+    width: 30px;
+    height: auto;
+  }
+  
+  .fb-icon {
+    width: 30px;
+    height: auto;
+  }
+  
+  .address {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .adress-icon {
+    width: 30px;
+    height: auto;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    list-style-type: none;
+  }
+  
+  .contact-icon {
+    width: 30px;
+    height: auto;
+    list-style: none;
+    list-style-type: none;
+  }
+  
