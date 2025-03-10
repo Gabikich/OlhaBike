@@ -4,48 +4,95 @@ body {
 }
 
 h2 {
-color: gray;
+  color: gray;
+  text-align: center;
+  margin: 50px;
+  background-color: rgb(246, 201, 68);
+  line-height: 3em;
+  letter-spacing: 3px; 
 
 }
 
 /* CSS MAIN ABOUT US */
-.main-about, .main-repair, .main-brands, .main-product, .main-galery{
-  margin: 5%;
-  margin-top: 10%;
+.main-about {
+
   display: flex;
+  flex-direction: row;
+  margin: 50px 20px;
   flex-wrap: wrap;
-  gap: 52px;
-  padding: auto;
-  
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+
 }
 
 .first-box,
 .second-box {
-  width: 45%;
+  width: 35%;
   border: 1px solid rgb(255, 255, 255);
-  border-radius: 3px;
-  padding: 15px;
+  border-radius: 10px;
   text-align: center;
   background-color: white;
- 
+  height: min-content;
+  padding: 10px;
 }
 
 .third-box {
-  width: 100%;
   border: 1px solid rgb(255, 255, 255);
-  border-radius: 3px;
-  padding: 15px;
+  border-radius: 10px;
   text-align: center;
   background-color: white;
+  height: min-content;
+  padding: 10px;
 }
 
 /* CSS MAIN REPAIR */
 
+.services {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.service-intro {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+
+}
+
+.prices {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
 
 
-.services{
+.basic-plan, .level-2, .level-3, .level-4 {
+background-color: rgb(250, 248, 250);
+border: 1px solid rgb(255, 255, 255);
+border-radius: 10px;
+text-align: center;
+padding: 20px;
+
+}
+
+/* CSS BRANDS */
+
+
+.brands-container
+{
     display: flex;
-    flex-direction: column;
-   
-    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap:40px;
 }

@@ -88,6 +88,7 @@
     align-items: center;
     align-content: flex-end;
     height: 100px;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.993);
     margin-top: auto;
   }
