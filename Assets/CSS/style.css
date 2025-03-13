@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   background-color: rgb(228, 228, 228);
   margin: px;
   font-family: Arial;
@@ -11,13 +10,13 @@ body {
   letter-spacing: 1.3px;
 }
 
-/* main {
-  flex: 1;
-} */
-
-p,
-li {
+p, li {
   color: rgb(0, 0, 0);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Booking service */
@@ -49,38 +48,35 @@ li {
   background-color: #ffc703;
 }
 
-/* NEWS LETTER FORM  */
 
-.client-zone {
-  background-color: rgb(230, 230, 230);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 0;
+
+/* CYCLING GROUPS */
+
+
+.meetups{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+  background-color: rgb(228, 228, 228);
+ 
 }
 
-.newsletter-form {
-  display: flex;
-  gap: 10px;
-  width: 400px;
-  margin: 20px auto;
+
+.times{
+    background-image: url(/Assets/images/bike-delivery.jpeg);
+    margin: 20px;
+    padding: 20px;
+    min-height: 100px;
+    flex: 1;
+    background-color: rgba(102, 99, 99, 0.6); /* Dark semi-transparent background */
+    border: 2px;
+    border-color: rgb(83, 83, 83);
+    margin: 5px;
+    border-radius: 10px;
+    gap:50px;
+    text-align: center;
+    
 }
 
-.newsletter-form input {
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #000000;
-  border-radius: 5px;
-}
-
-.newsletter-form button {
-  background: #000000;
-  color: white;
-  /* padding: 10px 15px; */
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.newsletter-form button:hover {
-  background: #ffc703;
-}

@@ -1,5 +1,5 @@
 /* header */
-.header-menu {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,24 +10,27 @@
   width: 100%;
   height: 90px;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
-  /* z-index: 10; */
   max-width: 100vw; /* Ensures that the menu does not exceed the screen width */
   overflow: hidden; /* prevents any content from overflowing outside of the header’s boundaries */
   top: 0%; /* Ensures the header stay at the top even when the page is scrolled */
+  z-index: 99;  /* Ensures the header is above other elements */
 }
 
-.menu-list {
+
+#menu-list {
   display: flex;
   align-items: center;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-end;
-  flex-grow: 1; /* Makes the links occupy the available space*/
   gap: 20px;
   padding-right: 20px;
+  padding-left: 0;
+
+
 }
 
-.header-menu ul li {
+.header ul li {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -67,13 +70,14 @@
   font-size: small;
   text-transform: uppercase;
   /* background-color: grey; */
-  padding: 10px;
+  padding: 2px;
   border-radius: 5px;
 }
 
 .menu-link a:hover {
   color: #ffc703;
 }
+
 
 /* FOOTER */
 
