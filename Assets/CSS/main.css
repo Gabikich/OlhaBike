@@ -156,11 +156,10 @@ ul li {
 
 /* VIDEOS */
 
-.videos {
+.videos-section {
   display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-  /* width: 100%; */
   height: 400px;
   gap: 20px;
   justify-content: space-between;

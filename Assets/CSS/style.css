@@ -1,6 +1,5 @@
 html, body {
   background-color: rgb(228, 228, 228);
-  margin: px;
   font-family: Arial;
   line-height: 1.6em;
   min-height: 100vh;
@@ -24,14 +23,14 @@ main {
 .container img {
   width: 100%;
   height: 900px;
-  /* position: relative; */
+  position: relative;
+ 
 }
 
 .btn {
 
   top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 40%;
   background-color: #555;
   color: white;
   font-size: 20px;
@@ -69,7 +68,7 @@ main {
     margin: 20px;
     padding: 20px;
     min-height: 100px;
-    flex: 1;
+    flex: 1; /* all items grown equally inside the meeetups container*/
     background-color: rgba(102, 99, 99, 0.6); /* Dark semi-transparent background */
     border: 2px;
     border-color: rgb(83, 83, 83);

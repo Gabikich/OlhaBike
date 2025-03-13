@@ -100,7 +100,7 @@
   
   .social-list {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -114,15 +114,11 @@
    
   }
   
-  .insta-icon {
+  .insta-icon, .fb-icon, .adress-icon {
     width: 30px;
     height: auto;
   }
   
-  .fb-icon {
-    width: 30px;
-    height: auto;
-  }
   
   .address {
     display: flex;
@@ -130,10 +126,7 @@
     align-content: center;
     align-items: center;
   }
-  .adress-icon {
-    width: 30px;
-    height: auto;
-  }
+
   
   .contact {
     display: flex;
