@@ -1,3 +1,8 @@
+
+
+/* CSS OF THE INDEX PAGE */
+
+
 html, body {
   background-color: rgb(228, 228, 228);
   font-family: Arial;
@@ -56,7 +61,7 @@ html, body {
 
 
 .times{
-    background-image: url("/Assets/images/galery/gallery07.jpeg");
+    background-image: url("./Assets/images/galery/gallery07.jpeg");
     margin: 20px;
     padding: 20px;
     min-height: 100px;

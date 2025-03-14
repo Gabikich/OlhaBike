@@ -46,7 +46,7 @@ p {
 }
 
 .aboutus {
-  background-image: url("/Assets/images/bike-delivery.jpeg");
+  background-image: url("./Assets/images/bike-delivery.jpeg");
   background-color: rgba(0, 0, 0, 0.5);
   margin: 20px;
   padding: 20px;
