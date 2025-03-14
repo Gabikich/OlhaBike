@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+ 
 /* header */
 .header {
   display: flex;
@@ -82,63 +86,36 @@
 /* FOOTER */
 
 .footer {
-    font-family: "Times New Roman", Times, serif;
+  
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center;  /*position of the icons */
     align-items: center;
-    gap: 200px;
-    align-items: center;
-    align-content: flex-end;
     height: 100px;
-    width: 100%;
     background-color: rgba(255, 255, 255, 0.993);
-    margin-top: auto;
+    margin: 0;
     
   }
   
-  
-  .social-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 5px;
-    list-style: none;
-    list-style-type: none;
-  }
-  
-  a {
-    text-decoration: none;
-   
-  }
-  
-  .insta-icon, .fb-icon, .adress-icon {
-    width: 30px;
-    height: auto;
-  }
-  
-  
-  .address {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
+.social {
+  display: flex;
+  flex-direction: row;
+}
 
+.social-icon{
+  width: 30px;
+  height: auto;
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 5px;
+}
+
+.lets-cycle {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  gap:10px
   
-  .contact {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    list-style-type: none;
-  }
-  
-  .contact-icon {
-    width: 30px;
-    height: auto;
-    list-style: none;
-    list-style-type: none;
-  }
-  
+}
+
