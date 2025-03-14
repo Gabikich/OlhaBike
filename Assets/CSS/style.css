@@ -61,7 +61,7 @@ html, body {
 
 
 .times{
-    background-image: url("./Assets/images/galery/gallery07.jpeg");
+    background-image: url("../images/galery/gallery07.jpeg");
     margin: 20px;
     padding: 20px;
     min-height: 100px;
