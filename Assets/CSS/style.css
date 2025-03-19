@@ -83,3 +83,32 @@ html, body {
   background-color: rgba(255, 255, 255, 0.6);  Adds a semi-transparent dark overlay for readability
 
 }
+
+/* Responsive Design for Mobile Devices */
+@media screen and (max-width: 768px) {  /* Apply styles when screen width is 768px or smaller (tablets & phones) */
+
+  .btn {
+    top: 20%; /* Move button slightly higher on smaller screens */
+    left: 15%; /* Keep button centered */
+    font-size: 16px; /* Reduce text size for better readability */
+    padding: 12px 24px; /* Adjust padding to keep button proportional */
+  }
+
+  .container img {
+    height: 500px; /* Reduce image height so it fits smaller screens better */
+  }
+
+  .meetups {
+    flex-direction: column; /* Stack meetup items vertically instead of side by side */
+  }
+
+  .times {
+    flex: none;  /* Prevent flex-grow to keep a consistent size */
+    width: 90%; /* Expand to take up most of the screen width */
+    margin: 10px auto; /* Center the items by adding auto margin */
+  }
+
+  #timesblock {
+    flex-direction: column; /* Stack content inside timesblock vertically */
+  }
+}
